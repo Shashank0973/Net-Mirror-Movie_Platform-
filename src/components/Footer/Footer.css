@@ -1,0 +1,41 @@
+.footer {
+  padding:30px 4%;
+  max-width:1000px;
+  margin:0 auto;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  margin:40px 0;
+}
+.footer-icons img {
+  width: 30px;
+  cursor: pointer;
+} 
+.youtube {
+  filter: invert(24%) sepia(93%) saturate(7471%) hue-rotate(356deg) brightness(98%) contrast(113%);
+}
+
+.instagram {
+  filter: invert(47%) sepia(91%) saturate(2472%) hue-rotate(291deg) brightness(95%) contrast(100%);
+}
+
+.twitter {
+  filter: invert(64%) sepia(91%) saturate(636%) hue-rotate(176deg) brightness(95%) contrast(101%);
+}
+
+.facebook {
+  filter: invert(29%) sepia(94%) saturate(1286%) hue-rotate(193deg) contrast(101%);
+}
+.footer ul {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.copyright-text {
+  color:gray;
+  font-size: 14px;
+}
+
